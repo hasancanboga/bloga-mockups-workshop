@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<title>Laravel from scratch blog</title>
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+<body style="font-family: Open Sans, sans-serif">
+    <section class="px-6 py-8">
+        <nav class="flex justify-between items-center">
+            <div>
+                <a href="/">
+                    <img src="./images/logo.svg" alt="Laracasts Logo" width="165" height="16">
+                </a>
+            </div>
+
+            <div>
+                <a href="/" class="text-xs font-bold uppercase">Home Page</a>
+                <a href="" class="bg-blue-500 ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-5">Subscribe
+                    for
+                    Updates</a>
+            </div>
+        </nav>
+
+        <header class="max-2-5xl mx-auto mt-20 text-center">
+            <div class="max-w-xl mx-auto">
+                <h1 class="text-4xl">
+                    Latest <span class="text-blue-500">Laravel From Scratch</span> News
+                </h1>
+                <h2 class="inline-flex mt-3">By Lary Laracore <img src="./images/lary-head.svg" alt="Head of Lary the Mascot"></h2>
+                <p class="text-sm mt-14">
+                    Another year. Another update. We're refreshing the popular Laravel series with new content. I'm
+                    going to keep you guys up to speed with what's going on!
+                </p>
+                <div class="tw-flex tw-justify-center space-x-4 mt-8">
+                    <!-- Category -->
+                    <span class="relative inline-flex items-center bg-gray-100 inline-block rounded-xl ">
+                        <select class="appearance-none bg-transparent py-2 pl-2 pr-8 text-sm font-semibold">
+                            <option value="category" disabled selected>Category</option>
+                            <option value="personal">Personal</option>
+                            <option value="busines">Business</option>
+                        </select>
+                        <svg class="transform -rotate-90 absolute pointer-events-none" style="right: 5px;" width="22" height="22" viewBox="0 0 22 22">
+                            <g fill="none" fill-rule="evenodd" data-darkreader-inline-fill="" style="--darkreader-inline-fill:none;">
+                                <path stroke="#000" stroke-opacity=".012" stroke-width=".5" d="M21 1v20.16H.84V1z" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:#e8e6e3;"></path>
+                                <path fill="#222" d="M13.854 7.224l-3.847 3.856 3.847 3.856-1.184 1.184-5.04-5.04 5.04-5.04z" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#d3cfc9;"></path>
+                            </g>
+                        </svg>
+                    </span>
+                    <!-- Other Filters -->
+                    <span class="relative inline-flex items-center bg-gray-100 inline-block rounded-xl ">
+                        <select class="appearance-none bg-transparent py-2 pl-2 pr-8 text-sm font-semibold">
+                            <option value="category" disabled selected>Other Filters</option>
+                            <option value="foo">Foo</option>
+                            <option value="bar">Bar</option>
+                        </select>
+                        <svg class="transform -rotate-90 absolute pointer-events-none" style="right: 5px;" width="22" height="22" viewBox="0 0 22 22">
+                            <g fill="none" fill-rule="evenodd" data-darkreader-inline-fill="" style="--darkreader-inline-fill:none;">
+                                <path stroke="#000" stroke-opacity=".012" stroke-width=".5" d="M21 1v20.16H.84V1z" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:#e8e6e3;"></path>
+                                <path fill="#222" d="M13.854 7.224l-3.847 3.856 3.847 3.856-1.184 1.184-5.04-5.04 5.04-5.04z" data-darkreader-inline-fill="" style="--darkreader-inline-fill:#d3cfc9;"></path>
+                            </g>
+                        </svg>
+                    </span>
+                    <!-- Other Filters -->
+                    <span class="relative inline-flex items-center bg-gray-100 inline-block rounded-xl px-3 py-2">
+                        <form action="GET" action='#'>
+                            <input type="text" name='search' placeholder="Find Something" class="bg-transparent placeholder-black font-semibold text-sm">
+                        </form>
+
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+        </main>
+
+
+        <footer>
+
+        </footer>
+
+    </section>
+</body>
